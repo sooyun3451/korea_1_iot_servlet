@@ -15,7 +15,7 @@ public class UserDao {
     private static final String INSERT_USER_SQL = "INSERT INTO users (name, email, country) VALUES(?, ?, ?)";
 
     private static final String SELECT_USER_BY_ID_SQL = "SELECT id, name, email, country FROM users WHERE id = ?";
-    private static final String SELECT_ALL_USERS_SQL = "SELECT * FROM users WHERE id = ?";
+    private static final String SELECT_ALL_USERS_SQL = "SELECT * FROM users";
 
     private static final String DELETE_USERS_SQL = "DELETE FROM users WHERE id = ? ";
 
